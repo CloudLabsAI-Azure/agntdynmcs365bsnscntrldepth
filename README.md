@@ -165,7 +165,7 @@ The following Microsoft licenses are required to complete the labs in this repos
 | License | Purpose | Required For |
 |---------|---------|-------------|
 | **Microsoft Dynamics 365 Business Central Essentials** or **Premium** | Core ERP platform with Copilot capabilities built-in | All Labs (1–6) |
-| **Microsoft 365 (Business Standard or higher)** | Email integration for agent-based automation using Outlook | Lab 2 (Payables Agent), Lab 4 (Sales Agent) |
+| **Microsoft 365 Business Basic** (or higher) | Provides Exchange Online mailbox used by the Payables Agent and Sales Agent | Lab 2 (Payables Agent), Lab 4 (Sales Agent) |
 
 ### 🔑 Key Licensing Notes
 
@@ -173,6 +173,14 @@ The following Microsoft licenses are required to complete the labs in this repos
 - **Copilot Features**: Microsoft Copilot capabilities (AI analysis, Payables Agent, Sales Agent, e-document mapping, marketing text generation) are **built into Business Central** and are included with a standard Business Central Essentials or Premium license — **no separate Copilot license is required**.
 - **Email Account**: A personal or organizational email account (e.g., Outlook) is needed to simulate vendor invoices (Lab 2) and customer inquiries (Lab 4). Any working email account is sufficient.
 - **Admin Tenant**: A Microsoft Entra ID (formerly Azure Active Directory) tenant with admin privileges is needed to activate Business Central and manage environments.
+
+### ❓ Frequently Asked License Questions
+
+**Q: Will Microsoft 365 Business Basic work?**
+> **Yes.** Microsoft 365 Business Basic includes Exchange Online (Plan 1), which is all that is needed for the Payables Agent (Lab 2) and Sales Agent (Lab 4) mailbox integration. The agents connect to the Exchange Online mailbox to receive and process emails — the full Outlook desktop app (included in Business Standard and higher) is not required. Business Basic is the minimum Microsoft 365 tier needed.
+
+**Q: Do I need Power Apps Premium?**
+> **No.** These labs use only **Dynamics 365 Business Central** and its built-in Copilot features. Power Apps and the Power Platform are not used in any lab exercise. Power Apps Premium (or any Power Apps license) is **not required**.
 
 ---
 

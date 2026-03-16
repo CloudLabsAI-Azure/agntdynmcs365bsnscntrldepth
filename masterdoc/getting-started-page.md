@@ -43,10 +43,12 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
 Before proceeding, ensure the following are available:
 
 - **Microsoft Dynamics 365 Business Central Essentials or Premium** license (or a free 30-day trial).
-- **Microsoft 365** email account (required for Labs 2 and 4 — Payables Agent and Sales Agent).
+- **Microsoft 365 Business Basic** (or higher) email account — required for Labs 2 and 4 (Payables Agent and Sales Agent mailbox integration). Business Basic is the minimum tier needed; Business Standard or higher also works.
 - **Azure Portal access** is required for the initial sign-in steps below, using the Microsoft Entra ID credentials provided for this lab.
 
-> Copilot features in Business Central are included with your Business Central license — no additional Copilot license is needed.
+> **Copilot features** in Business Central are included with your Business Central license — no additional Copilot license is needed.
+>
+> **Power Apps Premium is not required** — these labs use only Dynamics 365 Business Central and do not involve Power Apps or the Power Platform.
 
 ## Let's Get Started with Azure Portal
 
