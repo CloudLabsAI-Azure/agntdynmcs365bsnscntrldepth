@@ -38,6 +38,16 @@ Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from
 
 ![Manage Your Virtual Machine](./media/VMSS.png)
 
+## License & Access Requirements
+
+Before proceeding, ensure the following are available:
+
+- **Microsoft Dynamics 365 Business Central Essentials or Premium** license (or a free 30-day trial).
+- **Microsoft 365** email account (required for Labs 2 and 4 — Payables Agent and Sales Agent).
+- **Azure Portal access** is required for the initial sign-in steps below, using the Microsoft Entra ID credentials provided for this lab.
+
+> Copilot features in Business Central are included with your Business Central license — no additional Copilot license is needed.
+
 ## Let's Get Started with Azure Portal
 
 1. On your virtual machine, click on the Azure Portal icon.

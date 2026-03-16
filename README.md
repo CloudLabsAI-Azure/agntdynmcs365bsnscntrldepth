@@ -158,6 +158,48 @@ Generate, refine, and finalize marketing text using Copilot.
 
 ---
 
+# 📋 Microsoft License Requirements
+
+The following Microsoft licenses are required to complete the labs in this repository:
+
+| License | Purpose | Required For |
+|---------|---------|-------------|
+| **Microsoft Dynamics 365 Business Central Essentials** or **Premium** | Core ERP platform with Copilot capabilities built-in | All Labs (1–6) |
+| **Microsoft 365 (Business Standard or higher)** | Email integration for agent-based automation using Outlook | Lab 2 (Payables Agent), Lab 4 (Sales Agent) |
+
+### 🔑 Key Licensing Notes
+
+- **Business Central Trial**: A free 30-day trial is available at [microsoft.com/dynamics-365/products/business-central](https://www.microsoft.com/en-us/dynamics-365/products/business-central). No paid license is required to start.
+- **Copilot Features**: Microsoft Copilot capabilities (AI analysis, Payables Agent, Sales Agent, e-document mapping, marketing text generation) are **built into Business Central** and are included with a standard Business Central Essentials or Premium license — **no separate Copilot license is required**.
+- **Email Account**: A personal or organizational email account (e.g., Outlook) is needed to simulate vendor invoices (Lab 2) and customer inquiries (Lab 4). Any working email account is sufficient.
+- **Admin Tenant**: A Microsoft Entra ID (formerly Azure Active Directory) tenant with admin privileges is needed to activate Business Central and manage environments.
+
+---
+
+# 🌐 Azure Portal Access
+
+**Yes — users need access to the Azure Portal** as part of the initial lab environment setup.
+
+### Why Azure Portal Access Is Needed
+
+| Reason | Details |
+|--------|---------|
+| **Microsoft Entra ID Authentication** | Users sign in to Business Central using their Microsoft Entra ID (formerly Azure Active Directory) credentials, which are managed through the Azure Portal. |
+| **Initial Environment Setup** | The getting-started guide directs users to sign into the Azure Portal to verify credentials and access the lab environment. |
+| **Admin Center Access** | The Business Central Admin Center (used to create sandbox environments) is accessed via Microsoft Entra ID-authenticated accounts. |
+
+### What Azure Portal Is NOT Required For
+
+The core lab exercises (Labs 1–6) are performed entirely within:
+
+- **Microsoft Dynamics 365 Business Central** portal
+- **Business Central Admin Center** (accessible from within Business Central)
+- **Microsoft Outlook** (for email testing in Labs 2 and 4)
+
+> **Note:** Direct configuration of Azure resources (e.g., Azure VMs, Azure services) is **not** required for any lab exercise. Azure Portal access is only needed for initial sign-in and identity verification.
+
+---
+
 # 🧠 Copilot Capabilities Demonstrated
 
 - Analyze List  
