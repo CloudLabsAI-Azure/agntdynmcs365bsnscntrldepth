@@ -23,21 +23,28 @@ purchasing processes.
 
 > ![](./media/image1.png)
 
-2.  Open the **Dynamics 365 Business Central** portal. From top click on
-    the Setting icon and navigate to Admin center.
+2. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies** and switch to **My Company**.
 
-> ![](./media/image2.png)
+> ![](./media/firstimage.png)
 
-3.  Click on the Production environment.
+3. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`)..
+
+> ![](./media/secondimage.png)
+
+4. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
+
+> ![](./media/three.png)
+
+5.  Click on the Production environment.
 
 > ![](./media/image3.png)
 
-4.  Click on the environment to navigate to production environment of
+6.  Click on the environment to navigate to production environment of
     business central.
 
 > ![](./media/image4.png)
 
-5.  Press **Alt + Q**, enter **Item**, and select **Items** to open the
+7.  Press **Alt + Q**, enter **Item**, and select **Items** to open the
     item list.
 
 > ![](./media/image5.png)

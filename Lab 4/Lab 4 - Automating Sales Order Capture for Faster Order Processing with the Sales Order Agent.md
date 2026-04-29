@@ -41,12 +41,28 @@ reducing manual effort and improving accuracy.
 
 > ![](./media/image4.png)
 
-2.  Select **Current user**, allowing the agent to use the signed-in
+2. In the **Set Up Email** section, Click the **Next**.
+
+> ![](./media/second-1.png)
+
+3. In the **Set Up Email** section, Select the **Current User** and Click the **Next**.
+
+> ![](./media/second-2.png)
+
+4. In the **Current User Email Account** section, Click the **Next**.
+
+> ![](./media/second-3.png)
+
+5. In the **Set Up Email** Section, Click on **Finish**.
+
+> ![](./media/second-4.png)
+
+6.  Select **Current user**, allowing the agent to use the signed-in
     user’s mailbox for receiving customer emails.
 
-3.  Click **OK** to proceed and complete the mailbox configuration.
+7.  Click **OK** to proceed and complete the mailbox configuration.
 
-> ![](./media/image5.png)
+> ![](./media/second-5.png)
 
 ## Task 3: Configure Sales Agent Behavior
 
@@ -126,6 +142,7 @@ reducing manual effort and improving accuracy.
 
 5.  Review the inquiry details and allow the agent to determine the next
     step for generating a quotation.
+ **Note**: Wait for 2-3 minutes to complete
 
 6.  Click **Continue** to proceed.
 

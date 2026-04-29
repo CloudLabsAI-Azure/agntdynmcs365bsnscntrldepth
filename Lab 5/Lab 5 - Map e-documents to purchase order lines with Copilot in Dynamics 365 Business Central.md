@@ -17,15 +17,44 @@ matching options available within the e-document mapping process.
 
 1. Navigate to the Business Central home page.
 
-2. From the top bar, select **Settings**, and then choose **AdminCenter**.
+2. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies(1)** and switch to **My Company(2)**.
 
-   ![](./media/image1.png)
+> ![](./media/firstimage.png)
 
-3. In the Admin Center, locate and select the **cronus_sandbox** environment.
+3. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`)..
 
-   ![](./media/image2.png)
+> ![](./media/secondimage.png)
 
-5. Click on the **Environment URL** to open the selected sandbox environment.
+4. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
+
+> ![](./media/three.png)
+
+5.  From the top menu, click **New** to start creating a new environment.
+
+    ![](./media/newenv.png)
+
+6.  In the Create environment page, enter the following values:
+
+    - Name: cronus_sandbox
+
+    - Type: Sandbox
+
+    - Country: United States (US)
+
+    - Version: 28.0
+
+7.  After entering the details, click **Create**. The environment creation
+    process begins and the status shows that the environment is being
+    configured.
+
+    ![](./media/sandboxcreation.png)
+
+
+8. In the Admin Center, locate and select the **cronus_sandbox** environment.
+
+   ![](./media/clickenv.png)
+
+9. Click on the **Environment URL** to open the selected sandbox environment.
 
    ![](./media/image3.png)
 
