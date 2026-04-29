@@ -2,290 +2,199 @@
 
 **Introduction**
 
-In this lab, participants will explore how Copilot enhances vendor
-invoice processing in Dynamics 365 Business Central for small and
-medium-sized finance teams. The lab walks through configuring the
-Payables Agent, setting up an email inbox for receiving vendor invoices,
-and using Copilot to automatically create, review, and post purchase
-documents. Participants will also gain hands-on experience reviewing
-invoice data, making necessary adjustments, and understanding how
-Copilot assists in reducing manual effort while maintaining control over
-financial transactions. By the end of this lab, participants will have a
-clear understanding of how invoice automation works end to end within
-Business Central.
+In this lab, you will explore how Copilot enhances vendor invoice processing in Dynamics 365 Business Central for small and medium-sized finance teams. The lab walks through configuring the Payables Agent, setting up an email inbox for receiving vendor invoices, and using Copilot to automatically create, review, and post purchase documents. You will also gain hands-on experience reviewing invoice data, making necessary adjustments, and understanding how Copilot assists in reducing manual effort while maintaining control over financial transactions. By the end of this lab, you will have a clear understanding of how invoice automation works end to end within Business Central.
 
 ## Task 1: Activate the Payables Agent
 
-1.  Navigate to
-    <https://www.microsoft.com/en-us/dynamics-365/products/business-central/sign-in>
-    business central and sign in with the admin tenant.
+1. Navigate to Business Central home page.
 
-> ![](./media/image1.png)
+2. Navigate to **Payables Agent (1)** from the top menu and Click **Activate** to start enabling the agent .
 
-2.  Navigate to **Payables Agent** from the top menu to begin
-    configuring automated invoice processing.
+   ![](./media/l2t1s2.png)
 
-> ![](./media/image2.png)
+4. Turn On the **Activate (1)** toggle and In the **Mailbox** section, click the **horizontal ellipsis (⋯) (2)** to configure how invoices will be received.
 
-3.  Click **Activate** to start enabling the agent.
+   ![](./media/l2t1s3.png)
 
-> ![](./media/image3.png)
+2. Click **Next** to assign an email account to the agent.
 
-4.  Turn **On** the **Activate** toggle so the Payables Agent can
-    receive and process vendor invoices.
+   ![](./media/l2t1s4.png)
 
-> ![](./media/image4.png)
+3. From the available options, select **Current user (1)**, allowing the agent to use the signed-in user’s mailbox for receiving invoices, then click **Next (2)**.
 
-## Task 2: Configure the Mailbox for the Payables Agent
+   ![](./media/l2t1s5.png)
 
-1.  In the **Mailbox** section, click the **horizontal ellipsis (⋯)** to
-    configure how invoices will be received.
+4. Click **Next** again to confirm the mailbox setup.
 
-> ![](./media/image5.png)
+   ![](./media/l2t1s6.png)
 
-2.  Click **Next** to assign an email account to the agent.
+5. Click **Finish** to complete the mailbox configuration.
 
-> ![](./media/image6.png)
+   ![](./media/l2t1s7.png)
 
-3.  From the available options, select **Current user**, allowing the
-    agent to use the signed-in user’s mailbox for receiving invoices,
-    then click **Next**.
+6. Verify that **Current user** appears in the **Email accounts** section and click **OK** to finalize the setup.
 
-> ![](./media/image7.png)
+   ![](./media/l2t1s8.png)
 
-4.  Click **Next** again to confirm the mailbox setup.
+7. Click the **right-arrow (\>)** icon to access additional configuration options.
 
-> ![](./media/image8.png)
+   ![](./media/l2t1s9.png)
 
-5.  Click **Finish** to complete the mailbox configuration.
+8. In the **Document processing** section, ensure **Review email** is turned **On** so incoming emails can be reviewed before document creation.
 
-> ![](./media/image9.png)
+9. Click **Update** to save the Payables Agent configuration.
 
-6.  Verify that **Current user** appears in the **Email accounts**
-    section and click **OK** to finalize the setup.
+   ![](./media/l2t1s10.png)
 
-> ![](./media/image10.png)
+1. Accept the terms and conditions by clicking **I accept** to proceed.
 
-## Task 3: Review and Update Payables Agent Settings
+   ![](./media/l2t1s11.png)
 
-1.  Click the **right-arrow (\>)** icon to access additional
-    configuration options.
+## Task 2: Send a Vendor Invoice Email
 
-> ![](./media/image11.png)
+1. Open a new browser tab and navigate to <https://outlook.live.com/mail/>
 
-2.  Review the **Get sample invoice** section to understand how invoices
-    are interpreted during processing.
+2. Sign in using a personal email account to simulate a vendor sending an invoice.
 
-3.  In the **Document processing** section, ensure **Review email** is
-    turned **On** so incoming emails can be reviewed before document
-    creation.
+   ![](./media/l2t4s2.png)
 
-4.  Click **Update** to save the Payables Agent configuration.
+3. Create a new email and send it to the same admin tenant email address configured for the Payables Agent.
 
-> ![](./media/image12.png)
+4. Set the subject as **Invoice** and add the provided email content.
 
-5.  Accept the terms and conditions by clicking **I accept** to proceed.
+    ```
+    Dear Team,
 
-> ![](./media/image13.png)
+    Please find attached the **Fabrikam invoice** for your review and further processing.
 
-## Task 4: Send a Vendor Invoice Email
+    Kindly verify the details and let us know if any clarification or correction is required from our end.
 
-1.  Open a new browser tab and navigate to
-    [**https://outlook.live.com/mail/**](https://outlook.live.com/mail/).
+    Thank you for your support.
+    ```
+5. Attach the **Fabrikam Invoice US D365F** file from the **C:\LabFiles\lab** file folder and send the email to initiate invoice processing.
 
-2.  Sign in using a personal email account to simulate a vendor sending
-    an invoice.
+   ![](./media/l2t2s5.png)
 
-> ![](./media/image14.png)
+## Task 3: Review the Incoming Invoice in Business Central
 
-3.  Create a new email and send it to the same admin tenant email
-    address configured for the Payables Agent.
+1. Return to the **Business Central** portal once the email is sent.
 
-4.  Set the subject as **Invoice** and add the provided email content.
+2. Notice that the **Payables Agent (1)** automatically detects the incoming email and creates an **e-Document (2)** request. Open the most recent request.
 
-Dear Team,
+   ![](./media/l2t5s1.png)
 
-Please find attached the **Fabrikam invoice** for your review and
-further processing.
+3. Click **Review** to validate the email content.
 
-Kindly verify the details and let us know if any clarification or
-correction is required from our end.
+   ![](./media/l2t5s2.png)
 
-Thank you for your support.
+4. View PDF to examine the invoice document and click **Continue** to allow Copilot to create a draft purchase document.
 
-5.  Attach the **Fabrikam Invoice US D365F** file from the C:\labfiles
-    folder and send the email to initiate invoice processing.
+   ![](./media/l2t5s3.png)
 
-> ![](./media/image15.png)
+1. Wait while Copilot prepares the purchase document draft.
 
-## Task 5: Review the Incoming Invoice in Business Central
+2. Once the draft is ready, click **Review** to examine the generated details.
 
-1.  Return to the **Business Central** portal once the email is sent.
+   ![](./media/l2t6s2.png)
 
-2.  Notice that the Payables Agent automatically detects the incoming
-    email and creates an **e-Document** request. Open the most recent
-    request.
+3. Scroll down to the **Total Tax** section and update the tax value to **120** and click **Continue** to move forward with the updated draft.
 
-> ![](./media/image16.png)
+   ![](./media/l2t6s3.png)
 
-3.  Click **Review** to validate the email content.
+4. Allow Copilot to finalize the draft based on the reviewed information.
 
-> ![](./media/image17.png)
+5. Click **Finalize purchase draft** once the final version is available.
 
-4.  Select **View PDF** to examine the invoice document.
+   ![](./media/l2t7s2.png)
 
-> ![](./media/image18.png)
+6. Review the finalized document and click **Post** to complete the transaction.
 
-5.  Close the document and click **Continue** to allow Copilot to create
-    a draft purchase document.
+   ![](./media/l2t7s3.png)
 
-> ![](./media/image19.png)
->
-> ![](./media/image20.png)
+7. Confirm the posting by clicking **Yes**.
 
-## Task 6: Review and Update the Purchase Document Draft
+   ![](./media/l2t7s4.png)
 
-1.  Wait while Copilot prepares the purchase document draft.
+8. Click **Yes** again to view the posted document.
 
-2.  Once the draft is ready, click **Review** to examine the generated
-    details.
+   ![](./media/l2t7s5.png)
 
-> ![](./media/image21.png)
+## Task 4: Create and update Number Series
 
-3.  Scroll down to the **Total Tax** section and update the tax value to
-    **120**.
+1. Navigate to the **Business Central Home** page.
 
-> ![](./media/image22.png)
->
-> ![](./media/image23.png)
+2. Select **Purchasing (1)** from the top menu and open **Purchase Orders (2)** to review the automatically assigned order numbers.
 
-4.  Click **Continue** to move forward with the updated draft.
+   ![](./media/e4s3.png)
 
-> ![](./media/image24.png)
+   ![](./media/l2t8s2.png)
 
-## Task 7: Finalize and Post the Purchase Invoice
+3. Navigate to the homage page, Press Alt + Q, enter **Purchase & Payable (1)** in the field, and select **Purchase & Payable setup (2)** option.
 
-1.  Allow Copilot to finalize the draft based on the reviewed
-    information.
+   ![](./media/l2t8s3.png)
 
-2.  Click **Finalize purchase draft** once the final version is
-    available.
+4. Participant can see **IRS 1096 Form no.** series is not available in the setup. Click on the Back button at the top.
 
-> ![](./media/image25.png)
+   ![](./media/l2t8s4.png)
 
-3.  Review the finalized document and click **Post** to complete the
-    transaction.
+5. Press **Alt + Q**, search for **Number Series**, and open the **Number Series** page to view how document numbers are generated.
 
-> ![](./media/image26.png)
+   ![](./media/l2t8s5.png)
 
-4.  Confirm the posting by clicking **Yes.**
+6. From the **Number Series** page, click **Generate** to let Copilot suggest changes.
 
-> ![](./media/image27.png)
+   ![](./media/l2t9s1.png)
 
-5.  Click **Yes** again to view the posted document.
+7. Enter the provided prompt **Create a number series for the IRS 1096 Form no. series for the current year (1)** and click **Generate (2)**.
 
-> ![](./media/image28.png)
+   ![](./media/l2t9s2.png)
 
-## Task 8: Create and update Number Series
+8. Click on **Keep it** to save the number series.
 
-1.  Navigate to the **Business Central Home** page.
+   ![](./media/l2t9s3.png)
 
-2.  Select **Purchasing** from the top menu and open **Purchase Orders**
-    to review the automatically assigned order numbers.
+9. Press Alt + Q and enter **Purchases & payable setup (1)**, then select **Purchases & payable setup (2)** option.
 
-> ![](./media/image29.png)
->
-> ![](./media/image30.png)
+   ![](./media/l2t9s4.png)
 
-3.  Navigate to the homage page, Press Alt + Q, enter Payable setup in
-    the field, and select **Purchase & Payable** setup option.
+1. Scroll down and can see the **IRS 1096** number series is created. Click on the back button from top.
 
-> ![](./media/image31.png)
+   ![](./media/l2t9s5.png)
 
-4.  Participant can see IRS 1096 Form no. series is not available in the
-    setup. Click on the Back button at the top.
+1. click on the **Generate** button.
 
-> ![](./media/image32.png)
+   ![](./media/l2t10s1.png)
 
-5.  Press **Alt + Q**, search for **Number Series**, and open the
-    **Number Series** page to view how document numbers are generated.
+1. Enter the prompt **Change the [Sales Order] number to [SORD- 1099] (1)** and click **Generate (2)**.
 
-> ![](./media/image33.png)
+   ![](./media/l2t9s7.png)
 
-## Task 9: Generate and Update Number Series Using Copilot
+1. Review the suggested changes and click **Keep it** to apply them.
 
-1.  From the **Number Series** page, click **Generate** to let Copilot
-    suggest changes.
+   ![](./media/l2t9s8.png)
 
-> ![](./media/image34.png)
+   ![](./media/l2t9s9.png)
 
-2.  Enter the provided prompt and click **Generate**.
+## Task 5: Prepare Number Series for the Next Year
 
-> +++Create a number series for the IRS 1096 Form no. series for the
-> current year+++
->
-> ![](./media/image35.png)
+1. Click **Generate** again to explore additional Copilot capabilities.
 
-3.  Click on Keep it to save the number series.
+   ![](./media/l2t10s1.png)
 
-> ![](./media/image36.png)
+2. Open the **Prompt guidance (1)** and select **Prepare for next year (2)** and Choose **Prepare number series for the next year (3)** from the menue.
 
-4.  Press Alt + Q and enter Payable setup, then select Purchases &
-    payable setup option.
+   ![](./media/l2t10s2.png)
 
-> ![](./media/image37.png)
+3. Click **Generate**.
 
-5.  Scroll down and can see the IRS 1096 number series is created. Click
-    on the back button from top.
+   ![](./media/l2t10s3.png)
 
-> ![](./media/image38.png)
+4. Review the generated number series and click **Keep it** to save the changes.
 
-6.  Press the **Generate** button from the bottom.
-
-> ![](./media/image39.png)
-
-7.  Enter the provided prompt to modify the **Sales Order number
-    series** and click **Generate**.
-
-> +++Change the \[Sales Order\] number to \[SORD- 1099\]+++
->
-> ![](./media/image40.png)
-
-8.  Review the suggested changes and click **Keep it** to apply them.
-
-> ![](./media/image41.png)
->
-> ![](./media/image42.png)
-
-**Task 10: Prepare Number Series for the Next Year**
-
-1.  Click **Generate** again to explore additional Copilot capabilities.
-
-> ![](./media/image43.png)
-
-2.  Open the **Prompt guidance** and select **Prepare for next year**.
-
-3.  Choose **Prepare number series for the next year**.
-
-> ![](./media/image44.png)
-
-4.  Click **Generate**.
-
-> ![](./media/image45.png)
-
-5.  Review the generated number series and click **Keep it** to save the
-    changes.
-
-> ![](./media/image46.png)
+   ![](./media/l2t10s4.png)
 
 **Conclusion**
 
-By completing this lab, participants have successfully configured the
-Payables Agent and used Copilot to automate the processing of vendor
-invoices received via email. They reviewed incoming documents, validated
-and adjusted purchase details, finalized and posted invoices, and
-explored how Copilot can assist in managing number series efficiently.
-This lab demonstrates how Copilot helps finance teams streamline
-accounts payable processes, improve accuracy, and reduce manual
-intervention while retaining full visibility and control within Dynamics
-365 Business Central.
+By completing this lab, you have successfully configured the
+Payables Agent and used Copilot to automate the processing of vendor invoices received via email. They reviewed incoming documents, validated and adjusted purchase details, finalized and posted invoices, and explored how Copilot can assist in managing number series efficiently.
+This lab demonstrates how Copilot helps finance teams streamline accounts payable processes, improve accuracy, and reduce manual intervention while retaining full visibility and control within Dynamics 365 Business Central.
