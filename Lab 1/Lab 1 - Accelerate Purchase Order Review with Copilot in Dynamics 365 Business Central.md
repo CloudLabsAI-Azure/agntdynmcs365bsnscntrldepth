@@ -18,6 +18,8 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
 
 1. You will be navigated to a new tab, scroll down and locate **Dynamics 365 Business Central** and select **Try for Free** again.
 
+   ![](./media/ds1.png)
+
 1. You will be navigated to login page, click on **Get started** to finalize the setup process.
 
       ![](./media/image6.png)
@@ -52,7 +54,7 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
  
 1. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`).
  
-   ![](./media/secondimage.png)
+   ![](./media/ds2.png)
  
 1. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
  
@@ -68,7 +70,7 @@ In this exercise, you will activate a free trial environment for Dynamics 365 Bu
 
 1. You are redirected to the Business Central Production home page.
 
-    ![](./media/e2s7.png)
+   ![](./media/ds3.png)
 
 ## Exercise 3: Verify Copilot and Agent Capabilities
 
@@ -78,13 +80,13 @@ In this exercise, you will verify that Copilot and agent capabilities are enable
 
 2. In the search field, type **Copilot & agent capabilities (1)** and from the search results, select **Copilot & agent capabilities (2)**.
 
-    ![](./media/e3s1.png)
+   ![](./media/ds4.png)
 
 3. Review the settings displayed on the page.
 
 4. In most trial environments, agent capabilities are enabled by default. You may review the available options to understand the scope of Copilot features. For the purpose of this lab, **do not activate or deactivate any options**.
 
-    ![](./media/e3s5.png)
+   ![](./media/ds5.png)
 
 5. Copilot and agent capabilities are confirmed to be active and available for use in subsequent exercises.
 
