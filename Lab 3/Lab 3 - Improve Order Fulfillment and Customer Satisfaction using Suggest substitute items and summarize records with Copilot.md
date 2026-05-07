@@ -2,177 +2,114 @@
 
 **Introduction**
 
-In this lab, participants will learn how Copilot in Dynamics 365
-Business Central helps improve order fulfillment and customer
-satisfaction by recommending suitable substitute items and providing
-intelligent summaries of purchasing records. The lab is divided into two
-exercises: the first focuses on using Copilot to suggest and manage
-substitute items with confidence-based recommendations, while the second
-demonstrates how Copilot summarizes purchase orders to support faster
-review and better decision-making. Together, these exercises highlight
-how Copilot enhances efficiency and accuracy across inventory and
-purchasing processes.
+In this lab, you will learn how Copilot in Dynamics 365 Business Central helps improve order fulfillment and customer satisfaction by recommending suitable substitute items and providing intelligent summaries of purchasing records. 
+
+The lab is divided into two exercises, the first focuses on using Copilot to suggest and manage substitute items with confidence-based recommendations, while the second demonstrates how Copilot summarizes purchase orders to support faster review and better decision-making. 
+
+Together, these exercises highlight how Copilot enhances efficiency and accuracy across inventory and purchasing processes.
 
 ## Exercise 1: Suggest and Manage Substitute Items Using Copilot
 
 ### Task 1: Navigate to Items in Business Central
 
-1.  Navigate to
-    <https://www.microsoft.com/en-us/dynamics-365/products/business-central/sign-in>
-    business central and sign in with the admin tenant.
+1. Navigate to <https://www.microsoft.com/en-us/dynamics-365/products/business-central/sign-in> business central and sign in with the admin tenant.
 
-> ![](./media/image1.png)
+   ![](./media/l3e1t1s1.png)
 
-2. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies** and switch to **My Company**.
+1. Dynamic 365 Buisness Central home page will open
 
-> ![](./media/firstimage.png)
+   ![](./media/l3e2t1s2.png)
 
-3. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`)..
+### Task 2: Refine and remove Items for Substitution using Copilot
 
-> ![](./media/secondimage.png)
+1. In the search field, type **Items (1)** and from the search results, select **Items (2)**.
 
-4. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
+   ![](./media/l3e1t2s1.png)
 
-> ![](./media/three.png)
+1. In the **Items** list, select **PARIS General chair, Black** to open the item card.
 
-5.  Click on the Production environment.
+   ![](./media/l3e1t2s3.png)
 
-> ![](./media/image3.png)
+1. From the top menu, click **Item (1)** and select **Substitutions (2)** to manage alternative items for the selected product.
 
-6.  Click on the environment to navigate to production environment of
-    business central.
+   ![](./media/l3e1t2s4.png)
 
-> ![](./media/image4.png)
+1. On the **Item Substitutions** page, click **Suggest with Copilot** to automatically generate a list of related substitute items.
 
-7.  Press **Alt + Q**, enter **Item**, and select **Items** to open the
-    item list.
+   ![](./media/l3e1t3s1.png)
 
-> ![](./media/image5.png)
+1. Review the items suggested by Copilot that are relevant to **PARIS General chair, Black**.
 
-### Task 2: Open the Item for Substitution
+   ![](./media/l3e1t3s2.png)
 
-1.  In the **Items** list, select **PARIS General chair, Black** to open
-    the item card.
+1. Click **Matching (1)**, select **Permissive (2)**, and then click **Generate (3)** to broaden the list of suggested substitute items.
 
-> ![](./media/image6.png)
+   ![](./media/l3e1t4s1.png)
 
-2.  From the top menu, click **Item** and select **Substitutions** to
-    manage alternative items for the selected product.
+1. Click **View (1)**, select **Lines and Confidence (2)**, and click **Generate (3)** to display confidence scores for each suggested item.
 
-> ![](./media/image7.png)
+   ![](./media/l3e1t4s2.png)
 
-### Task 3: Suggest Substitute Items Using Copilot
+1. Identify items marked with **Low confidence**.
 
-1.  On the **Item Substitutions** page, click **Suggest with Copilot**
-    to automatically generate a list of related substitute items.
+   ![](./media/l3e1t5s1.png)
 
-> ![](./media/image8.png)
+1. Use the **vertical ellipsis (⋮) (1)** and select **Select more (2)** to enable multiple selection.
 
-2.  Review the items suggested by Copilot that are relevant to **PARIS
-    General chair, Black**.
+   ![](./media/l3e1t5s2.png)
 
-> ![](./media/image9.png)
+1. Select all **low-confidence (1)** items and click **Delete (2)**.
 
-### Task 4: Refine Suggestions Using Matching and Confidence Options
+   ![](./media/l3e1t5s3.png)
 
-1.  Click **Matching**, select **Permissive**, and then click
-    **Generate** to broaden the list of suggested substitute items.
+1. Click **Yes** to confirm the deletion.
 
-> ![](./media/image10.png)
+   ![](./media/l3e1t5s4.png)
 
-2.  Click **View**, select **Lines and Confidence**, and click
-    **Generate** to display confidence scores for each suggested item.
+1. Click **Insert all** to add all **Medium** and **High confidence** substitute items.
 
-> ![](./media/image11.png)
+   ![](./media/l3e1t6s1.png)
 
-### Task 5: Remove Low-Confidence Substitute Items
+1. Verify that the substitute items are added successfully for the selected item.
 
-1.  Identify items marked with **Low confidence**.
-
-> ![](./media/image12.png)
-
-2.  Use the **vertical ellipsis (⋮)** and select **Select more** to
-    enable multiple selection.
-
-> ![](./media/image13.png)
-
-3.  Select all low-confidence items and click **Delete**.
-
-> ![](./media/image14.png)
-
-4.  Click **Yes** to confirm the deletion.
-
-> ![](./media/image15.png)
-
-### Task 6: Insert Medium and High-Confidence Substitute Items
-
-1.  Click **Insert all** to add all **Medium** and **High confidence**
-    substitute items.
-
-> ![](./media/image16.png)
-
-2.  Verify that the substitute items are added successfully for the
-    selected item.
-
-> ![](./media/image17.png)
+   ![](./media/l3e1t6s2.png)
 
 ## Exercise 2: Summarize Purchase Orders Using Copilot
 
-### Task 1: Open a Purchase Order
+### Task 1: Open a Purchase Order and View Purchase Order Summary with Copilot
 
-1.  Navigate to the **Business Central Home** page.
+1. Navigate to the **Business Central Home** page.
 
-2.  Click **Purchasing** from the top menu and select **Purchase
-    Orders**.
+   ![](./media/l3e2t1s2.png)
 
-> ![](./media/image18.png)
+1. Click **Purchasing (1)** from the top menu and select **Purchase Orders (2)**.
 
-3.  Open **Purchase Order No. 10601** to review its details.
+   ![](./media/l3e2t1s1.png)
 
-> ![](./media/image19.png)
+1. Open **Purchase Order No. 10601** to review its details.
 
-### Task 2: View Purchase Order Summary with Copilot
+   ![](./media/l3e2t1s3.png)
 
-1.  On the right side of the purchase order page, locate the **Summary**
-    section.
+1. On the right side of the purchase order page, locate the **Summary** section , click the **down arrow** and click ** Start Summarization** to generate the summary.
 
-2.  Click the **down arrow** to expand the Copilot-generated summary.
+   ![](./media/l3e2t2s1.png)
 
-> ![](./media/image20.png)
+1. Click **Show more** to view additional details.
 
-3.  Click **Show more** to view additional details.
+   ![](./media/l3e2t2s2.png)
 
-> ![](./media/image21.png)
+1. Review the detailed purchase order information displayed in the Copilot panel.
 
-### Task 3: Review and Copy Copilot Summary Details
+   ![](./media/l3e2t3s1.png)
 
-1.  Review the detailed purchase order information displayed in the
-    Copilot panel.
+1. In the Copilot summary section, click the **horizontal ellipsis (⋯)** to view additional options.
 
-> ![](./media/image22.png)
+1. Review the available actions, including hiding the summary, copying the summary, viewing related items, and learning more about the summarized content.
 
-2.  Hover over the summarized content and click **Copy** to copy the
-    details for reuse or sharing.
+   ![](./media/l3e2t3s2.png)
 
-> ![](./media/image23.png)
+## Conclusion
 
-### Task 4: Explore Copilot Summary Options
+By completing this lab, you have learned how to use Copilot to suggest and manage substitute items effectively, ensuring better product availability and improved order fulfillment, you also explored how Copilot summarizes purchase orders, enabling faster review and clearer insights into purchasing data. 
 
-1.  In the Copilot summary section, click the **horizontal ellipsis
-    (⋯)** to view additional options.
-
-2.  Review the available actions, including hiding the summary, copying
-    the summary, viewing related items, and learning more about the
-    summarized content.
-
-> ![](./media/image24.png)
-
-**Conclusion**
-
-By completing this lab, participants have learned how to use Copilot to
-suggest and manage substitute items effectively, ensuring better product
-availability and improved order fulfillment. They also explored how
-Copilot summarizes purchase orders, enabling faster review and clearer
-insights into purchasing data. Together, these capabilities demonstrate
-how Copilot in Dynamics 365 Business Central helps teams enhance
-operational efficiency and deliver a better customer experience.
+Together, these capabilities demonstrate how Copilot in Dynamics 365 Business Central helps teams enhance operational efficiency and deliver a better customer experience.

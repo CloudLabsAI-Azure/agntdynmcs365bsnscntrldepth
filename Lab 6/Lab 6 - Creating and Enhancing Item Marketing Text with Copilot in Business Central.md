@@ -1,210 +1,173 @@
 # Lab 6 - Creating and Enhancing Item Marketing Text with Copilot in Business Central​
 
-**Lab Objective**
+## Lab Objective
 
-In this lab, you will learn how to use Copilot in Microsoft Dynamics 365
-Business Central to generate, review, and refine marketing text for an
-existing item. You will start by opening an item card, generate an
-AI-powered first draft using Copilot, customize the content by selecting
-relevant attributes, and then review, edit, and save the final version.
+In this lab, you will learn how to use Copilot in Microsoft Dynamics 365 Business Central to generate, review, and refine marketing text for an
+existing item. You will start by opening an item card, generate an AI-powered first draft using Copilot, customize the content by selecting relevant attributes, and then review, edit, and save the final version.
 
-This lab demonstrates how AI can accelerate content creation while still
-requiring human validation to ensure quality, accuracy, and brand
+This lab demonstrates how AI can accelerate content creation while still requiring human  validation to ensure quality, accuracy, and brand
 alignment.
 
 ## Exercise 1: Generate the First Draft with Copilot
 
-In this exercise, you will open an existing item and use Copilot to
-generate a marketing text draft. You will explore two different methods
-to initiate draft generation and learn how to select relevant product
-attributes to improve the quality of the AI-generated content.
+In this exercise, you will open an existing item and use Copilot to generate a marketing text draft. You will explore two different methods
+to initiate draft generation and learn how to select relevant product attributes to improve the quality of the AI-generated content.
 
-1.  In Business Central, press **Alt + Q**. In the search field, type
-    **Items**. From the search results, select **Items** to open the
-    list of available items.
+1. In Business Central homw page , press **Alt + Q**. In the search field, type **Items**. From the search results, select **Items** to open the list of available items.
 
-> ![](./media/image1.png)
+   ![](./media/l6e1s1.png)
 
-2.  Locate the item ATHENS Disk. Select the value in the No. column to
-    open the Item Card. You are now ready to generate marketing text for
-    this item.
+1. Locate the item **ATHENS Disk** . Select the value in the No. column to open the Item Card. You are now ready to generate marketing text for this item.
 
-> ![](./media/image2.png)
->
-> **Method 1: Using the Marketing Text FactBox**
+   ![](./media/l6e1s2.png)
 
-- Locate the Marketing Text pane in the FactBox area on the right side
-  of the Item Card.
+1. **Method 1: Using the Marketing Text FactBox**
 
-- Select Draft with Copilot.
+   - Locate the Marketing Text pane in the FactBox area on the right side of the Item Card.
 
-> ![](./media/image3.png)
+   - Select Draft with Copilot.
 
-- Copilot begins preparing a draft based on the item’s existing
-  information.
+     ![](./media/l6e1s3.png)
 
-- Select Cancel to close the window.
+   - Copilot begins preparing a draft based on the item’s existing information.
 
-> ![](./media/image4.png)
->
-> **Method 2: Using the Marketing Text Action**
+   - Select Cancel to **close** the window and keet it to keep the generated draft
 
-- At the top of the Item Card page, select the Marketing Text action.
+     ![](./media/l6e1s4.png)
 
-> ![](./media/image5.png)
+1. **Method 2: Using the Marketing Text Action**
 
-- In the Edit Marketing Text window, select Suggest marketing text.
+   - At the top of the **Item (1)** Card page, select the **Marketing Text (2)** action.
 
-> ![](./media/image6.png)
+     ![](./media/l6e1s5.png)
 
-- The Suggest marketing text window opens and displays available item
-  attributes.
+   - In the Edit Marketing Text window, select **Suggest marketing text** .
 
-> ![](./media/image7.png)
+     ![](./media/l6e1s6.png)
 
-3.  In the Draft Marketing Text window, review the list of available
-    item attributes.
+   - The Suggest marketing text window opens and displays available item attributes.
 
-4.  Select the vertical ellipsis (⋮) next to an item attribute. Choose
-    Select more.
+     ![](./media/l6e1s7.png)
 
-5.  Select multiple attributes such as:
+   - In the Draft Marketing Text window, review the list of available item attributes.
 
-    - Color
+   - Select the vertical ellipsis (⋮) next to an item attribute. Choose Select more.
 
-    - Height
+     ![](./media/l6e1s9.png)
 
-    - Material (legs)
+   - Select multiple attributes such as:
 
-    - Material (Surface)
+     - Color
 
-6.  After selecting the relevant attributes, choose Generate.
+     - Height
 
-> ![](./media/image8.png)
+     - Material (legs)
 
-7.  The generated text appears in the Copilot editor window.
+     - Material (Surface)
 
-8.  Carefully read the draft to evaluate:
+   - After selecting the relevant attributes, choose Generate.
 
-    - Clarity
+     ![](./media/l6e1s10.png)
 
-    - Accuracy
+   - The generated text appears in the Copilot editor window.
 
-    - Tone
+   - Carefully read the draft to evaluate:
 
-    - Completeness
+     - Clarity
 
-Important: AI-generated content is a suggestion only. It may contain
-inaccuracies or language that does not fully align with your
-organization’s standards. Always review and edit the content before
-saving or publishing.
+     - Accuracy
 
-![](./media/image9.png)
+     - Tone
+
+     - Completeness
+
+     ![](./media/l6e1s11.png)
+
+    ```
+    Important: AI-generated content is a suggestion only. It may contain inaccuracies or language that does not fully align with your organization’s standards. Always review and edit the content before saving or publishing.
+    ```
 
 ## Exercise 2: Review, Edit, and Save Marketing Text
 
-In this exercise, you will refine the AI-generated marketing text. You
-will edit and format the content, generate alternative suggestions,
-customize tone and structure, and perform a final validation before
-saving.
+In this exercise, you will refine the AI-generated marketing text. You will edit and format the content, generate alternative suggestions , customize tone and structure, and perform a final validation before saving.
 
-1.  In the Copilot editor window, place the cursor inside the text box.
+1. In the Copilot editor window, place the cursor inside the text box.
 
-2.  Make direct edits to improve:
+1. Make direct edits to improve:
 
-    - Clarity
+   - Clarity
+   - Accuracy
+   - Brand alignment
 
-    - Accuracy
+1. Use the formatting toolbar at the bottom of the editor to:
 
-    - Brand alignment
+   - Apply text styling
+   - Structure content for readability
+   - Insert hyperlinks if needed
 
-3.  Use the formatting toolbar at the bottom of the editor to:
+   ![](./media/l6e2s1.png)
 
-    - Apply text styling
+1. Select **Regenerate** to create a new suggestion.
 
-    - Structure content for readability
+   ![](./media/l6e2s2.png)
 
-    - Insert hyperlinks if needed
+1. Use the **navigation controls** at the top of the page (e.g., *1 of 2*) to move between available suggestions.
 
-> ![](./media/image10.png)
+   ![](./media/l6e2s3.png)
 
-4.  Select Regenerate to create a new suggestion.
+1. Compare variations and determine which draft best aligns with your requirements.
 
-> ![](./media/image11.png)
+1. Choose a **tone (1)** that aligns with your brand voice, such as:
 
-5.  Use the navigation controls at the top of the page (e.g., *1 of 2*)
-    to move between available suggestions.
+   - **Formal** – For professional and corporate communication.
+   - **Creative** – For engaging and conversational messaging.
 
-> ![](./media/image12.png)
+   For this select **Formal (2)** and click **Regenerate (3)**
 
-6.  Compare variations and determine which draft best aligns with your
-    requirements.
+   ![](./media/l6e2s4.png)
 
-7.  Choose a tone that aligns with your brand voice, such as:
+1. Select the **format (1)** of the marketing text:
 
-- Formal – For professional and corporate communication.
+   - **Tagline** – A short, catchy phrase.
+   - **Paragraph** – A detailed descriptive block of text.
+   - **Tagline + Paragraph** – A combination of both.
+   - **Brief** – An introductory statement followed by bullet points.
 
-- Creative – For engaging and conversational messaging.
+   For this select **Paragraph (2)** and click **Regenerate (3)**
 
-> ![](./media/image13.png)
+   ![](./media/l6e2s5.png)
 
-8.  Select the format of the marketing text:
+1. Select predefined qualities to emphasize, such as:
 
-- Tagline – A short, catchy phrase.
+   - Innovation
+   - Power
+   - Reliablity
+   - Elegance
 
-- Paragraph – A detailed descriptive block of text.
+   For this select **Sustainability (2)** and click **Regenerate (3)**
+   ![](./media/l6e2s6.png)
 
-- Tagline + Paragraph – A combination of both.
+1. Choose attributes that logically align with the item type. After adjusting preferences, select **Regenerate** to apply the new settings.
 
-- Brief – An introductory statement followed by bullet points.
+   ![](./media/l6e2s7.png)
 
-> ![](./media/image14.png)
+1. Conduct a thorough review of the text. Confirm that:
 
-9.  Select predefined qualities to emphasize, such as:
+   - Product details are accurate
+   - Content complies with company standards
+   - The tone aligns with brand guidelines
 
-- Quality
+1. If satisfied, select **Keep it** to save the marketing text.
 
-- Durability
+   ![](./media/l6e2s8.png)
 
-- Performance
+1. Click OK to confirm the update.
 
-- Innovation
-
-> ![](./media/image15.png)
-
-10. Choose attributes that logically align with the item type. After
-    adjusting preferences, select Regenerate if needed to apply the new
-    settings.
-
-![](./media/image16.png)
-
-11. Conduct a thorough review of the text.
-
-12. Confirm that:
-
-    - Product details are accurate
-
-    - Content complies with company standards
-
-    - The tone aligns with brand guidelines
-
-13. If satisfied, select Keep it to save the marketing text.
-
-![](./media/image17.png)
-
-14. Click OK to confirm the update.
-
-![](./media/image18.png)
+   ![](./media/l6e2s9.png)
 
 ## Conclusion
 
-In this lab, you explored how to use Copilot in Microsoft Dynamics 365
-Business Central to efficiently create and refine marketing text for an
-existing item. You learned how to generate an initial AI-powered draft,
-enhance content quality by selecting relevant item attributes, and
-customize tone, structure, and emphasis to align with brand guidelines.
-You also reviewed multiple suggestions, edited the content for clarity
-and accuracy, and finalized the text before saving it. Overall, this lab
-demonstrated how AI can accelerate content creation while reinforcing
-the importance of human review to ensure accuracy, consistency, and
-compliance with organizational standards.
+In this lab, you explored how to use Copilot in Microsoft Dynamics 365 Business Central to efficiently create and refine marketing text for an
+existing item. You learned how to generate an initial AI-powered draft, enhance content quality by selecting relevant item attributes, and customize tone, structure, and emphasis to align with brand guidelines.
+
+You also reviewed multiple suggestions, edited the content for clarity and accuracy, and finalized the text before saving it. Overall, this lab demonstrated how AI can accelerate content creation while reinforcing the importance of human review to ensure accuracy, consistency, and compliance with organizational standards.

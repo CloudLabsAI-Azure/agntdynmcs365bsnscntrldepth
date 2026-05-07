@@ -2,95 +2,83 @@
 
 **Introduction**
 
-In this lab, participants explore how e-documents are processed and
-mapped to purchase orders in Dynamics 365 Business Central using
-Copilot. The lab begins by accessing a sandbox environment and
-generating the required demo data using the Contoso Demo Tool.
-Participants then work with linked purchase orders created from
-e-documents and learn how Copilot assists in matching e-document lines
-with purchase order lines. Through hands-on exercises, participants gain
-practical experience in reviewing, validating, and saving
-Copilot-generated matches, while also understanding the different
-matching options available within the e-document mapping process.
+In this lab, you will explore how e-documents are processed and mapped to purchase orders in Dynamics 365 Business Central using Copilot. The lab begins by accessing a sandbox environment and
+generating the required demo data using the Contoso Demo Tool. Participants then work with linked purchase orders created from e-documents and learn how Copilot assists in matching e-document lines with purchase order lines. Through hands-on exercises, you will gain practical experience in reviewing, validating, and saving Copilot-generated matches, while also understanding the different matching options available within the e-document mapping process.
 
 ## Task 1: Open Business Central Admin Center and Access Sandbox Environment
 
 1. Navigate to the Business Central home page.
 
-2. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies(1)** and switch to **My Company(2)**.
+1. Open the **Dynamics 365 Business Central** portal. From the top navigation bar, select **Companies(1)** and switch to **My Company(2)**.
 
-> ![](./media/firstimage.png)
+   ![](./media/firstimage.png)
 
-3. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`)..
+1. In the browser’s address bar, locate the current environment URL. Remove everything after the tenant ID (including `/production`).
 
-> ![](./media/secondimage.png)
+   ![](./media/secondimage.png)
 
-4. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
+1. Append `/admin` to the end of the modified URL, as shown below, and then press **Enter**.
 
-> ![](./media/three.png)
+   ![](./media/three.png)
 
-5.  From the top menu, click **New** to start creating a new environment.
+1. From the top menu, click **New** to start creating a new environment.
 
-    ![](./media/newenv.png)
+   ![](./media/l5t1s5.png)
 
-6.  In the Create environment page, enter the following values:
+1. In the Create environment page, enter the following values:
 
-    - Name: cronus_sandbox
+   - Name: **cronus_sandbox (1)**
 
-    - Type: Sandbox
+   - Type: **Sandbox (2)**
 
-    - Country: United States (US)
+   - Country: **United States (US) (3)**
 
-    - Version: 28.0
+   - Version: **28.0 (4)**
 
-7.  After entering the details, click **Create**. The environment creation
-    process begins and the status shows that the environment is being
-    configured.
+1. After entering the details, click **Create (5)** . The environment creation process begins and the status shows that the environment is being configured.
 
-    ![](./media/sandboxcreation.png)
+   ![](./media/l5t1s6.png)
 
 
-8. In the Admin Center, locate and select the **cronus_sandbox** environment.
+1. In the Admin Center, locate and select the **cronus_sandbox** environment.
 
-   ![](./media/clickenv.png)
+   ![](./media/l5t1s7.png)
 
-9. Click on the **Environment URL** to open the selected sandbox environment.
+1. Click on the **Environment URL** to open the selected sandbox environment.
 
-   ![](./media/image3.png)
+   ![](./media/l5t1s8.png)
 
 ## Task 2: Generate Demo Data Using Contoso Demo Tool
 
 1. Once inside the sandbox environment, press **Alt + Q** on the keyboard to open the search.
 
-2. In the search field, enter **Contoso Demo Tool** and select it from the results.
+1. In the search field, enter **Contoso Demo Tool** and select it from the results.
 
-   ![](./media/image4.png)
+   ![](./media/l5t2s1.png)
 
-3. In the Contoso Demo Tool page, locate the **Data Name** field.
+1. In the Contoso Demo Tool page, locate the **Data Name** field.
 
-4. Select the vertical menu option for the Name field and choose
-    **Select More**.
+1. Select the **vertical menu (1)** option for the Name field and choose **Select More (2)**.
 
-   ![](./media/image5.png)
+   ![](./media/l5t2s2.png)
 
-5. From the list of available demo data:
+1. From the list of available demo data:
 
-    - Select all data options
+   - Select all data options
 
-    - **Do not select**: Subscription and Billing
+   - **Do not select**: Subscription and Billing
 
-6. After selecting the required demo data, click **Generate** from the
-    top of the page.
+1. After selecting the required demo data, click **Generate** from the top of the page.
 
-   ![](./media/image6.png)
+   ![](./media/l5t2s3.png)
 
-7. When prompted, click **Yes** to confirm the generation process.
+1. When prompted, click **Yes** to confirm the generation process.
 
-   ![](./media/image7.png)
+   ![](./media/l5t2s4.png)
 
-8. Click **OK** once the process is completed successfully.
+1. Click **OK** once the process is completed successfully.
 
-   ![](./media/image8.png)
+   ![](./media/l5t2s5.png)
 
 ## Task 3: Open Linked Purchase Orders from E-Document Activities
 
