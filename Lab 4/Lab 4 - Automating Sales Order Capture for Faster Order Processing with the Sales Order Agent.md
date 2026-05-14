@@ -9,7 +9,10 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
 
 ## Task 1: Activate the Sales Agent
 
-1. Navigate to <https://www.microsoft.com/en-us/dynamics-365/products/business-central/sign-in> business central and sign in with the admin tenant.
+1. Navigate to Dynamics 365 Business Central accessing the below URL and sign in with the admin tenant.
+   ```
+   https://www.microsoft.com/en-us/dynamics-365/products/business-central/sign-in
+   ```
 
    ![](./media/l3e1t1s1.png)
 
@@ -64,8 +67,10 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
 
 ## Task 2 : Send a Customer Inquiry Email
 
-1. Open a new browser tab and navigate to
-    <https://outlook.live.com/mail/0/> **Outlook**.
+1. Open a new browser tab and navigate to **Outlook** using the URL
+   ```
+   https://outlook.live.com/mail/0/
+   ```
 
 1. Sign in using your personal email account. 
     ```
