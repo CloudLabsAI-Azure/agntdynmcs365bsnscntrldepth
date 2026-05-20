@@ -1,20 +1,20 @@
-# Dynamic 365 Business Central
+# Supercharge SMB business operations with AI and agents in Dynamics 365 Business Central - Day 01
 
 ## Getting Started with the lab
 
-Welcome to your Dynamic 365 Business Central Workshop, Let's begin by making the most of this experience.
+Welcome to your Dynamic 365 Business Central Workshop. Let's begin by making the most of this experience.
 
 ## Accessing Your Lab Environment
 
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-   ![](./media/guideee.png)
+![Access Your VM and Lab Guide](./media/gs4.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-   ![](./media/zum.png)
+![](./media/gs2.png)
 
 ## Virtual Machine & Lab Guide
 
@@ -24,7 +24,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![](./media/envtab.png)
+![Explore Lab Resources](./media/gs1.png)
 
 ## Utilizing the Split Window Feature
 
@@ -79,6 +79,6 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to embark on your Lab journey!
 
-   ![](../media/PageNo.png)
+   ![Start Your Azure Journey](./media/PageNo.png)
 
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
