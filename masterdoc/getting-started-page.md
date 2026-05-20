@@ -30,19 +30,19 @@ To get a better understanding of your lab resources and credentials, navigate to
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-![Use the Split Window Feature](./media/splittt.png)
+   ![](./media/splittt.png)
 
 ## Managing Your Virtual Machine
 
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-![Manage Your Virtual Machine](./media/VMSS.png)
+   ![](./media/VMSS.png)
 
 ## Let's Get Started with Azure Portal
 
 1. On your virtual machine, click on the Azure Portal icon.
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your **credentials (1)** and select **Next (2)**:
+1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your **credentials (1)** and select **Next (2)**:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
@@ -74,8 +74,8 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 
 Learner Support Contacts:
 
-- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
-- Live Chat Support: https://cloudlabs.ai/labs-support
+   - Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+   - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Click **Next** from the bottom right corner to embark on your Lab journey!
 
