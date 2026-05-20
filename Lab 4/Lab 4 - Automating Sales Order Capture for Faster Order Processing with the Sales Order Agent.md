@@ -67,15 +67,15 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
 
 ## Task 2 : Send a Customer Inquiry Email
 
-1. Open a new browser tab and navigate to **Outlook** using the URL
+1. Open a private browser window and navigate to **Outlook** using the URL
    ```
    https://outlook.live.com/mail/0/
    ```
 
-1. Sign in using your personal email account. 
-    ```
-    If Outlook is not available, any email provider can be used. Outlook is used here for demonstration.
-    ```
+1. Sign in using the below account. 
+
+   - **Email/Username:** <inject key="User 01 UPN"></inject>
+   - **Password:** <inject key="User's Password"></inject>
 
    ![](./media/l4e1t2s1.png)
 
