@@ -72,14 +72,12 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
    https://outlook.live.com/mail/0/
    ```
 
-1. Sign in using the below account. 
+1. Sign in using the secondary user credentials. Naviagte to the **Environment (1)** and use the **User01 UPN** and and **User's Password** to login.
 
-   - **Email/Username:** <inject key="User 01 UPN"></inject>
-   - **Password:** <inject key="User's Password"></inject>
+   ![](./media/iamge-01.png)
 
-   ![](./media/l4e1t2s1.png)
-
-1. Create a new email and send it to the same admin tenant email address configured for the Sales Agent.
+1. Create a new email and send it to the below email address:- 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
 1. Set the subject as **Inquiry About Chairs** and add the provided email content.
 
