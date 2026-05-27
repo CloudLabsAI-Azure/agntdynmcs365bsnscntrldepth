@@ -7,21 +7,17 @@
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/masterdoc/getting-started-page.md",
             "Order": 1
           },
-         {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%203/Lab%203%20-%20Improve%20Order%20Fulfillment%20and%20Customer%20Satisfaction%20using%20Suggest%20substitute%20items%20and%20summarize%20records%20with%20Copilot.md",
+          {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%204/Lab%204%20-%20Automating%20Sales%20Order%20Capture%20for%20Faster%20Order%20Processing%20with%20the%20Sales%20Order%20Agent.md",
             "Order": 2
           },
           {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%204/Lab%204%20-%20Automating%20Sales%20Order%20Capture%20for%20Faster%20Order%20Processing%20with%20the%20Sales%20Order%20Agent.md",
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%205/Lab%205%20-%20Map%20e-documents%20to%20purchase%20order%20lines%20with%20Copilot%20in%20Dynamics%20365%20Business%20Central.md",
             "Order": 3
           },
           {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%205/Lab%205%20-%20Map%20e-documents%20to%20purchase%20order%20lines%20with%20Copilot%20in%20Dynamics%20365%20Business%20Central.md",
-            "Order": 4
-          },
-          {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%206/Lab%206%20-%20Creating%20and%20Enhancing%20Item%20Marketing%20Text%20with%20Copilot%20in%20Business%20Central.md",
-            "Order": 5
+            "Order": 4
           }
         ]
     }
