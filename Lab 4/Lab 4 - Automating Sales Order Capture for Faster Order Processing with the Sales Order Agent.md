@@ -67,16 +67,8 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
 
 ## Task 2 : Send a Customer Inquiry Email
 
-1. Open a private browser window and navigate to **Outlook** using the URL
-   ```
-   https://outlook.live.com/mail/0/
-   ```
+1. Please use your personal email ID to send the mail. Create a new email and send it to the below email address:
 
-1. Sign in using the secondary user credentials. Naviagte to the **Environment (1)** and use the **User01 UPN** and and **User's Password** to login.
-
-   ![](./media/iamge-01.png)
-
-1. Create a new email and send it to the below email address:- 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
 1. Set the subject as **Inquiry About Chairs** and add the provided email content.
