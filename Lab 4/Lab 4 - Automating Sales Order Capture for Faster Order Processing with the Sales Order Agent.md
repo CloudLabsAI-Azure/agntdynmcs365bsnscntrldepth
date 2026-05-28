@@ -7,7 +7,7 @@ Agent** in Dynamics 365 Business Central helps automate customer inquiries and g
 
 The lab demonstrates how to activate and configure the Sales Agent, receive customer inquiries via email, review Copilot-driven decisions, and send quotation responses automatically. This hands-on experience shows how sales teams can respond faster to customer requests while reducing manual effort and improving accuracy.
 
-## Task 1: Activate the Sales Agent
+## Task 1: Set Up the ODL User Shared Mailbox
 
 1. Navigate to Microsoft 365 administration accessing the below URL and sign in with the admin tenant.
 
@@ -47,7 +47,9 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
 
 1. In the **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>** **(3)** account, select the **Mail** tab, then under More actions, choose **Convert to shared mailbox**.
 
-mail-convert.png
+   ![](./media/mail-convert.png)
+
+## Task 2: Activate the Sales Agent
 
 1. Navigate to Dynamics 365 Business Central accessing the below URL and sign in with the admin tenant.
 
@@ -106,7 +108,7 @@ mail-convert.png
 
    ![](./media/l4e1t1s11.png)
 
-## Task 2 : Send a Customer Inquiry Email
+## Task 3: Send a Customer Inquiry Email
 
 1. Please use your personal email ID to send the mail. Create a new email and send it to the below email address:
 
