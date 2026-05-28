@@ -9,7 +9,48 @@ The lab demonstrates how to activate and configure the Sales Agent, receive cust
 
 ## Task 1: Activate the Sales Agent
 
+1. Navigate to Microsoft 365 administration accessing the below URL and sign in with the admin tenant.
+
+   ```
+   https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-administration
+   ```
+
+1. In the Microsoft 365 administration click on **Admin Sign in**
+
+   ![](./media/adminlogin.png)
+
+1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your **credentials (1)** and select **Next (2)**:
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+     ![Enter Your Username](../masterdoc/media/odlusr.png)
+
+1. Next, provide your **password (1)** and select **Sign In (2)**:
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+      ![Enter Your Password](../masterdoc/media/password.png)
+
+      > **Note:** If you see **Temporary Access pass**, enter the the password and select **Sign In (2)**:
+
+       - Enter **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
+
+          ![](../masterdoc/media/image.png)
+
+1. If it ask for **You need to set up multifactor authentication**, click on the **Skip it for now**
+
+   ![](./media/skipmfa.png)   
+
+1. Go to **Users** **(1)** → **Active users** **(2)** in the Microsoft 365 Admin Center, then select the required **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>** **(3)** account from the list.
+
+   ![](./media/selectodluser.png)
+
+1. In the **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>** **(3)** account, select the **Mail** tab, then under More actions, choose **Convert to shared mailbox**.
+
+mail-convert.png
+
 1. Navigate to Dynamics 365 Business Central accessing the below URL and sign in with the admin tenant.
+
    ```
    https://www.microsoft.com/en-us/dynamics-365/products/business-central/sign-in
    ```
