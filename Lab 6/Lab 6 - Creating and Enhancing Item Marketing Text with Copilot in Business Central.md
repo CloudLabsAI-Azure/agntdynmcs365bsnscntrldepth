@@ -1,4 +1,4 @@
-# Lab 6 - Creating and Enhancing Item Marketing Text with Copilot in Business Central​
+# Lab 5 - Creating and Enhancing Item Marketing Text with Copilot in Business Central​
 
 ## Lab Objective
 
