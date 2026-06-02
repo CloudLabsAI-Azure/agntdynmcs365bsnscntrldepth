@@ -12,12 +12,8 @@
             "Order": 2
           },
           {
-            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%205/Lab%205%20-%20Map%20e-documents%20to%20purchase%20order%20lines%20with%20Copilot%20in%20Dynamics%20365%20Business%20Central.md",
-            "Order": 3
-          },
-          {
             "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/agntdynmcs365bsnscntrldepth/refs/heads/main/Lab%206/Lab%206%20-%20Creating%20and%20Enhancing%20Item%20Marketing%20Text%20with%20Copilot%20in%20Business%20Central.md",
-            "Order": 4
+            "Order": 3
           }
         ]
     }
